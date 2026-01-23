@@ -53,7 +53,7 @@ To run and explore this dashboard, you will need:
 
 The following diagram represents the original **Northwind SQL database schema**, showing all tables and their relationships:
 
-![SQL Database Diagram](SQL_diagram.png)
+![SQL Database Diagram](images/SQL_diagram.png)
 
 This schema highlights the transactional nature of the database, with `Orders` and `Order Details` at the core, connected to dimensions such as Customers, Products, Employees, Shippers, and Categories.
 
@@ -78,7 +78,7 @@ To prepare the data for analysis, several SQL queries were created and imported 
 
 The resulting Power BI data model and relationships are shown below:
 
-![Power BI Data Model](powerbi_diagram.png)
+![Power BI Data Model](images/powerbi_diagram.png)
 
 This model follows best practices for BI projects, enabling efficient filtering, accurate aggregations, and flexible analysis.
 
@@ -88,7 +88,7 @@ This model follows best practices for BI projects, enabling efficient filtering,
 
 The final Power BI dashboard provides a consolidated view of sales performance, trends, and contribution analysis:
 
-![Power BI Dashboard](powerbi_dashboard.png)
+![Power BI Dashboard](images/powerbi_dashboard.png)
 
 The dashboard includes interactive slicers for **year, month, and product category**, allowing users to explore the data dynamically.
 
